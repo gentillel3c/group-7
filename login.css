@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./imgs/artem-kniaz-DqgMHzeio7g-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+form{
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    position: fixed;
+    padding: 20px;
+    width: 320px;
+    background-color: #0000004c;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.input{
+    outline: none;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 0px;
+    /* box-sizing: border-box; */
+}
+
+a{
+    /* margin-left: 0px; */
+    text-decoration: none;
+}
+
+.logi{
+    text-align: center;
+}
+
+.log{
+    /* text-align: center; */
+    background-color:  hsl(183, 80%, 65%);
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.log:hover{
+    background-color:  hsl(190, 87%, 54%);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.sign{
+    text-align: center;
+    color: #000;
+    background-color:  hsl(183, 80%, 65%);
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.sign:hover{
+    background-color:  hsl(190, 87%, 54%);
+    transition: .5s;
+    cursor: pointer;
+}
+
+a{
+    margin-top: 30px;
+    margin-left: 30px;
+}

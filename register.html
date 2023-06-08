@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>student Registration</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+	<link rel="shortcut icon" href="./imgs/sister-and-brother.png" type="image/x-icon">
+</head>
+<body>
+	<div class="div">
+        your child is registered
+        <button onclick="document.querySelector('.div').style.display='none'">OK</button>
+    </div>
+	<h1>student Registration Form</h1>
+	<form>
+		<label for="name">First-Name:</label>
+		<input type="text" id="name" name="name" >
+		
+		<label for="second-name">Second-Name:</label>
+		<input type="text" id="second-name" name="second-name" >
+		
+		<label for="date">Birth-date:</label>
+		<input type="date" id="date" name="date" required>
+		
+		<label for="gender">Gender:</label>
+		<p>Male</p>
+		<input type="radio" name="gender" value="Male" required><br>
+		<p>Female</p>
+		<input type="radio" name="gender" value="Female" required>
+
+		<label for="father-name">Father's Name:</label>
+		<input type="text" id="father-name" name="father-name" required>
+		
+		<label for="mother-name">Mother's Name:</label>
+		<input type="text" id="mother-name" name="mother-name" required>
+		
+		<label for="Guardian's-name">Guardian's Name:</label>
+		<input type="text" id="mother-name" placeholder="male or female or both" required>
+		
+		<label for="course">Location:</label>
+		<select id="course" name="course">
+			<option value="Select sector">Select sector</option>
+			<option value="Gisenyi">Gisenyi</option>
+			<option value="Rubavu">Rubavu</option>
+			<option value="Nyundo">Nyundo</option>
+			<option value="Nyamyumba">Nyamyumba</option>
+			<option value="Rugerero">Rugerero</option>
+			<option value="Cyanzarwe">Cyanzarwe</option>
+			<option value="Nyakiliba">Nyakiliba</option>
+			<option value="Kanama">Kanama</option>
+			<option value="Kanzenze">Kanzenze</option>
+			<option value="Busasamana">Busasamana</option>
+			<option value="Mudende">Mudende</option>
+			<option value="Bugeshi">Bugeshi</option>
+		</select>
+		
+		<a href="./registering.html" id="submit" onclick="alert('your child has been registered')">SAVE</a>
+	</form>
+</body>
+</html>
